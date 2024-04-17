@@ -38,3 +38,43 @@ Cocoon
         JoinTime
     }
 
+## Domains
+
+### Citizen
+
+```
+Id          "TASKA"
+Name        string
+ContactGate uint64
+ActiveDate  datetime
+```
+
+### Contact
+
+```
+CitizenId
+ContactGate
+```
+
+taska
+    endcodeFemix
+    decodeFemix
+
+taska.BuildLetter(msg) {
+    ct, err := cocoon_service.GetContactByName("TASKA")
+    ct.Id
+}
+
+femix nartual -> byte
+femix nartual
+if femix nartual to byte
+dafdsfdsafsa
+    if sadfsadfsad
+        taska.femixnartual to byte ...
+
+
+Contact
+Id
+Key -> verify message from contact
+
+Cocoon.ConnectToCocoon() -> tcp
