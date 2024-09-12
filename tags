@@ -4,7 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-AmqpGate	external/cocoon/contact_gate.go	/^type AmqpGate struct {$/;"	t
 Broker	external/base/broker.go	/^type Broker struct {$/;"	t
 Broker	external/cocoon/broker.go	/^type Broker struct {$/;"	t
 Close	external/base/broker.go	/^func (b *Broker) Close() error {$/;"	f
@@ -16,12 +15,10 @@ NewBroker	external/base/broker.go	/^func NewBroker(cfg *Config) (*Broker, error)
 NewBroker	external/cocoon/broker.go	/^func NewBroker(cfg *Config) (*Broker, error) {$/;"	f
 NewConfig	external/base/config.go	/^func NewConfig() (*Config, error) {$/;"	f
 NewConfig	external/cocoon/config.go	/^func NewConfig() (*Config, error) {$/;"	f
-NewDb	external/cocoon/db.go	/^func NewDb(config *config.DB) (*sql.DB, error) {$/;"	f
+NewDb	external/cocoon/db.go	/^func NewDb(config *Config) (*sql.DB, error) {$/;"	f
 Office	external/cocoon/office.go	/^type Office struct {$/;"	t
-SendMessage	external/cocoon/contact_gate.go	/^func (g *AmqpGate) SendMessage(msg []byte) error {$/;"	f
 cocoon	external/cocoon/broker.go	/^package cocoon$/;"	p
 cocoon	external/cocoon/config.go	/^package cocoon$/;"	p
-cocoon	external/cocoon/contact_gate.go	/^package cocoon$/;"	p
 cocoon	external/cocoon/db.go	/^package cocoon$/;"	p
 cocoon	external/cocoon/office.go	/^package cocoon$/;"	p
 cocoon_connect	external/base/broker.go	/^package cocoon_connect$/;"	p
